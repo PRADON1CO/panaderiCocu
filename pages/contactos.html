@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Productos, servicios info extra de panaderia Cocu"
+    />
+    <meta
+      name="keywords"
+      content="pan, tortillas, cositas dulces, cositas saladas"
+    />
+    <meta name="author" content="Prado Brian Nicolas" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Panaderia cocu</title>
+  </head>
+  <body data-bs-theme="dark">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="Logo panaderia cocu"
+              width="100px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1 class="text-center display-1 mb-4">Contactos</h1>
+        <article>
+          <form>
+            <div class="mb-3">
+              <label for="nombreApellido" class="form-label">Nombre y Apellido *</label>
+              <input type="text" class="form-control" id="nombreApellido" placeholder="Ej: Lucas Jaime" minlength="5" maxlength="50" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email *</label>
+              <!-- xx@utn.com -->
+              <input type="email" class="form-control" id="email" placeholder="Ej: Lucasjaime@gmail.com" minlength="9" maxlength="320" required>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Telefono</label>
+              <input type="tel" class="form-control" id="telefono" placeholder="Ej: 381345667">
+            </div>
+            <div class="mb-3">
+              <label for="consulta" class="form-label">Consulta *</label>
+              <textarea class="form-control" id="consulta" rows="4" minlength="5" maxlength="250" placeholder="Ingrese un consulta de hasta 250 caracteres" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </form>
+        </article>
+    </main>
+
+    <footer class="bg-dark text-secondary py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 text-center">
+            <p>
+              <img
+                src="../img/cocu_logo-450.png"
+                alt="Logo panaderia cocu"
+                width="120px"
+              />
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4>Horarios de atencion</h4>
+            <ul>
+              <li>Lunes a viernes 08 a 21hs</li>
+              <li>Sabado y domingo 10 a 12hs</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 text-md-center">
+            <h4>Siguenos en nuestras redes:</h4>
+            <div class="text-center">
+              <a href="" class="link-secondary mx-2"
+                ><i class="bi bi-facebook fs-1"></i
+              ></a>
+              <a href="" class="link-secondary mx-2"
+                ><i class="bi bi-whatsapp fs-1"></i
+              ></a>
+              <a href="" class="link-secondary mx-2"
+                ><i class="bi bi-instagram fs-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

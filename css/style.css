@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardd{
+    width: 90vw;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.imgCarouselProductos{
+    height: 300px;
+    object-fit: cover;
+}
+
+.imgSabores{
+    filter: grayscale(60%);
+    width: 90vw;
+    border-radius: 10px;
+}
+
+.imgHostoria{
+   width: 90vw;
+}
+
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .imgCarouselProductos{
+        height: 400px;
+    }
+
+    .cardd{
+        width: 350px;
+    }
+    
+    .imgSabores{
+        width: 350px;
+    }
+
+    .imgHostoria{
+        width: 100%;
+     }
+}
+
+@media all and (min-width: 992px){
+    .imgCarouselProductos{
+        height: 550px;
+    }
+
+    .cardd{
+        width: 350px;
+    }
+
+    .imgSabores{
+        width: 350px;
+    }
+
+    .imgHostoria{
+        width: 100%;
+     }
+}
