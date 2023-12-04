@@ -66,28 +66,34 @@
 
     <main class="container my-5">
         <h1 class="text-center display-1 mb-4">Contactos</h1>
-        <article>
-          <form>
-            <div class="mb-3">
-              <label for="nombreApellido" class="form-label">Nombre y Apellido *</label>
-              <input type="text" class="form-control" id="nombreApellido" placeholder="Ej: Lucas Jaime" minlength="5" maxlength="50" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email *</label>
-              <!-- xx@utn.com -->
-              <input type="email" class="form-control" id="email" placeholder="Ej: Lucasjaime@gmail.com" minlength="9" maxlength="320" required>
-            </div>
-            <div class="mb-3">
-              <label for="telefono" class="form-label">Telefono</label>
-              <input type="tel" class="form-control" id="telefono" placeholder="Ej: 381345667">
-            </div>
-            <div class="mb-3">
-              <label for="consulta" class="form-label">Consulta *</label>
-              <textarea class="form-control" id="consulta" rows="4" minlength="5" maxlength="250" placeholder="Ingrese un consulta de hasta 250 caracteres" required></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit">Enviar</button>
-          </form>
-        </article>
+        <section class="row">
+          <article class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label">Nombre y Apellido *</label>
+                <input type="text" class="form-control" id="nombreApellido" placeholder="Ej: Lucas Jaime" minlength="5" maxlength="50" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <!-- xx@utn.com -->
+                <input type="email" class="form-control" id="email" placeholder="Ej: Lucasjaime@gmail.com" minlength="9" maxlength="320" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Ej: 381345667">
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta *</label>
+                <textarea class="form-control" id="consulta" rows="4" minlength="5" maxlength="250" placeholder="Ingrese un consulta de hasta 250 caracteres" required></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+          </article>
+          <article class="col-md-6">
+            
+          </article>
+        </section>
+        
     </main>
 
     <footer class="bg-dark text-secondary py-4">
